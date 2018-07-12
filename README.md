@@ -1,3 +1,3 @@
 # 目录
-- [Vector]( https://github.com/NieBinQiang/java-i7w/raw/master/Vector.md)
+- [Vector]( https://github.com/NieBinQiang/java-i7w/blob/master/Vector.md)
 

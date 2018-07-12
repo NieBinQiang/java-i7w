@@ -1,5 +1,5 @@
 # Vector
-++++Vector++++ 是**矢量队列**，继承于AbstractList，实现了List, RandomAccess, Cloneable这些接口。
+Vector 是**矢量队列**，继承于AbstractList，实现了List, RandomAccess, Cloneable这些接口。
 - Vector 继承了AbstractList，实现了List，所有是一个队列，支持相关的添加、删除、修改、遍历等功能。
 - Vector 实现了RandmoAccess接口，即提供了随机访问功能。
 - Vector 实现了Cloneable接口，它能被克隆。

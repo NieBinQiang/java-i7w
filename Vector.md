@@ -13,12 +13,12 @@ Vector 是**矢量队列**，继承于AbstractList，实现了List, RandomAccess
 - capacityIncrement： 动态数组的增长系数。每次当Vector中动态数组容量增加时增加的大小
 ## 源码解析
 Voctor 底层数据结构和 ArrayList 类似,也是一个动态数组存放数据。不过是大多数操作数据方法的时候使用 synchronize 进行同步写数据，但是开销较大，所以 Vector 是一个同步容器并不是一个并发容器。如：
-- void copyInto(Object[] anArray)
-- void trimToSize()
-- void ensureCapacity(int minCapacity)
+- private synchronized void copyInto(Object[] anArray)
+- private synchronized void trimToSize()
+- private synchronized void ensureCapacity(int minCapacity)
 - ...等等
-
-确认“Vector容量”函数
+###  部分关键代码
+- 确认“Vector容量”函数
 ```java
 private void ensureCapacityHelper(int minCapacity) {
     int oldCapacity = elementData.length;
@@ -36,7 +36,7 @@ private void ensureCapacityHelper(int minCapacity) {
     }
 }
 ```
-指定位置插入数据:
+- 指定位置插入数据:
 ```java
 public synchronized void insertElementAt(E obj, int index) {
         modCount++;

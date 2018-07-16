@@ -7,3 +7,6 @@
 - [HashMap]( https://github.com/NieBinQiang/java-i7w/blob/master/HashMap.md)
 - [hashMap线程安全问题]( https://github.com/NieBinQiang/java-i7w/blob/master/hashMap线程安全问题.md)
 - [LinkedHashMap]( https://github.com/NieBinQiang/java-i7w/blob/master/LinkedHashMap.md)
+- [HashMap和Hashtable异同]( https://github.com/NieBinQiang/java-i7w/blob/master/HashMap和Hashtable异同.md)
+- [Set]( https://github.com/NieBinQiang/java-i7w/blob/master/Set.md)
+

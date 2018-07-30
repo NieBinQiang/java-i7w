@@ -12,6 +12,10 @@
 - [HashMap和Hashtable异同]( https://github.com/NieBinQiang/java-i7w/blob/master/HashMap和Hashtable异同.md)
 - [Set]( https://github.com/NieBinQiang/java-i7w/blob/master/Set.md)
 ## java 并发
+- [线程基本概念]( https://github.com/NieBinQiang/java-i7w/blob/master/Concurrence/线程基本概念.md)
+- [synchronized]( https://github.com/NieBinQiang/java-i7w/blob/master/Concurrence/synchronized.md)
+- [Lock]( https://github.com/NieBinQiang/java-i7w/blob/master/Concurrence/Lock.md)
+- [ConcurrentHashMap1.6]( https://github.com/NieBinQiang/java-i7w/blob/master/Concurrence/ConcurrentHashMap16.md)
 ## java IO/NIO、Netty
 ## Spring
 ## SpringMVC
